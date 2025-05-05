@@ -4,12 +4,18 @@
 # Logs
 *.log
 
-# VSCode settings
+# IDEs
 .vscode/
-
-# OS-generated files
-.DS_Store
-Thumbs.db
-
-# Java crash logs
-hs_err_pid*
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+.project
+.classpath
+.c9/
+.settings/
+.loadpath
+.metadata/
+recommenders/
