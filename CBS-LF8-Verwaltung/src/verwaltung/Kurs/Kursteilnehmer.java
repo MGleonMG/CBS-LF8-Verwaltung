@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 import verwaltung.Person;
 
-public final class Kursteilnehmer extends Person{
+public final class Kursteilnehmer extends Person {
 
     private final int MAX_KURSE = 2;
     private static int anzahlKursteilnehmer = 0;
