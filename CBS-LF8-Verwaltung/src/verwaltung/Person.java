@@ -2,7 +2,6 @@ package verwaltung;
 
 import java.util.ArrayList;
 
-//test
 public abstract class Person {
     protected String lastName;
     protected String firstName;
