@@ -49,5 +49,62 @@ public final class Kursteilnehmer {
     public String zeigeInfos(){
         return placeholder;
     }
+
+    public int getMaxKurse(){
+        return MAX_KURSE;
+    }
+
+    public int getAnzahlKursteilnehmer(){
+        return anzahlKursteilnehmer;
+    }
+
+    public void setAnzahlKursteilnehmer(int pAnzahlKursteilnehmer){
+        anzahlKursteilnehmer = pAnzahlKursteilnehmer;
+    }
+
+    public int getAnzahlGebuchterKurse(){
+        return anzahlGebuchterKurse;
+    }
+
+    public void setAnzahlGebuchterKuse(int pAnzahlGebuchterKurse){
+        anzahlGebuchterKurse = pAnzahlGebuchterKurse;
+    }
+
+    public Kurs[] getKurse(){
+        return kurse;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String pName){
+        name = pName;
+    }
+
+    public String getVorname(){
+        return vorname;
+    }
+
+    public void setVorname(String pVorname){
+        vorname = pVorname;
+    }
+
+    public String getAdresse(){
+        return adresse;
+    }
+
+    public void setAdresse(String pAdresse){
+        adresse = pAdresse;
+    }
+
+    public LocalDate getGeburtsdatum(){
+        return geburtsdatum;
+    }
+
+    public void setGeburtsdatum(LocalDate pGeburtsdatum){
+        geburtsdatum = pGeburtsdatum;
+    }
+
 }
 

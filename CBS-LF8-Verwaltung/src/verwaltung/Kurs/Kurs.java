@@ -64,12 +64,30 @@ public class Kurs {
         }
 
         public int getMaxTeilnehmer(){
+            return maxTeilnehmer;
+        }
 
+        public void setMaxTeilnehmer(int pMaxTeilnehmer){
+            maxTeilnehmer = pMaxTeilnehmer;
         }
 
         public int getAnzahlteilnehmer(){
-
+            return anzahlTeilnehmer;
         }
 
-        public
+        public void setAnzahlteilnehmer(int pAnzahlteilnehmer){
+            anzahlTeilnehmer = pAnzahlteilnehmer;
+        }
+
+        public double getKursgebuehr(){
+            return kursgebuehr;
+        }
+
+        public void setKursgebuehr(double pKursgebuehr){
+            kursgebuehr = pKursgebuehr;
+        }
+
+        public Kursteilnehmer getTeilnehmerliste(){
+            return teilnehmerliste;
+        }
 }
