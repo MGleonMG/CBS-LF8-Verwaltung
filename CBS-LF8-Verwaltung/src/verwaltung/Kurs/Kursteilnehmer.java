@@ -1,4 +1,4 @@
-package verwaltung;
+package verwaltung.Kurs;
 
 import java.time.LocalDate;
 

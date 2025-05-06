@@ -1,4 +1,4 @@
-package verwaltung;
+package verwaltung.Kurs;
 
 public class Kurs {
 
