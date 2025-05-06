@@ -1,4 +1,5 @@
-package verwaltung.main;
+package verwaltung;
+
 public class Verwaltung {
 
     enum Departments {

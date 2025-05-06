@@ -1,4 +1,5 @@
-package verwaltung.Entities;
+package verwaltung;
+
 import java.util.ArrayList;
 
 public abstract class Person {
