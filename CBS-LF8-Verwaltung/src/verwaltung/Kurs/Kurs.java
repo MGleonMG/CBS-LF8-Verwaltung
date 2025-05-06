@@ -1,3 +1,5 @@
+package verwaltung;
+
 public class Kurs {
 
     private int kursnummer;

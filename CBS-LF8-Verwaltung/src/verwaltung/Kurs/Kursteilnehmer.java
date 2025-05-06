@@ -1,3 +1,5 @@
+package verwaltung;
+
 import java.time.LocalDate;
 
 public final class Kursteilnehmer {
