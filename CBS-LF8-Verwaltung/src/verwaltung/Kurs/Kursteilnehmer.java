@@ -3,7 +3,7 @@ package verwaltung.Kurs;
 import java.time.LocalDate;
 
 public final class Kursteilnehmer {
-    
+
     private final int MAX_KURSE = 2;
     private static int anzahlKursteilnehmer = 0;
     private int anzahlGebuchterKurse = 0;
@@ -16,14 +16,14 @@ public final class Kursteilnehmer {
 
     private String placeholder;
 
-    public Kursteilnehmer(String pName, String pVorname, String pAdresse, LocalDate pGeburtsdatum){
+    public Kursteilnehmer(String pName, String pVorname, String pAdresse, LocalDate pGeburtsdatum) {
         name = pName;
         vorname = pVorname;
         adresse = pAdresse;
         geburtsdatum = pGeburtsdatum;
     }
 
-    public Kursteilnehmer(String pName, String pVorname, String pAdresse, LocalDate pGeburtsdatum, Kurs pKurse){
+    public Kursteilnehmer(String pName, String pVorname, String pAdresse, LocalDate pGeburtsdatum, Kurs pKurse) {
         name = pName;
         vorname = pVorname;
         adresse = pAdresse;
@@ -36,77 +36,76 @@ public final class Kursteilnehmer {
         }
     }
 
-    public void bucheKurs(){
+    public void bucheKurs() {
 
     }
 
-    public void storniereKurs(){
+    public void storniereKurs() {
 
     }
 
-    public void zeigeKurse(){
+    public void zeigeKurse() {
 
     }
 
-    public String zeigeInfos(){
+    public String zeigeInfos() {
         return placeholder;
     }
 
-    public int getMaxKurse(){
+    public int getMaxKurse() {
         return MAX_KURSE;
     }
 
-    public int getAnzahlKursteilnehmer(){
+    public int getAnzahlKursteilnehmer() {
         return anzahlKursteilnehmer;
     }
 
-    public void setAnzahlKursteilnehmer(int pAnzahlKursteilnehmer){
+    public void setAnzahlKursteilnehmer(int pAnzahlKursteilnehmer) {
         anzahlKursteilnehmer = pAnzahlKursteilnehmer;
     }
 
-    public int getAnzahlGebuchterKurse(){
+    public int getAnzahlGebuchterKurse() {
         return anzahlGebuchterKurse;
     }
 
-    public void setAnzahlGebuchterKuse(int pAnzahlGebuchterKurse){
+    public void setAnzahlGebuchterKuse(int pAnzahlGebuchterKurse) {
         anzahlGebuchterKurse = pAnzahlGebuchterKurse;
     }
 
-    public Kurs[] getKurse(){
+    public Kurs[] getKurse() {
         return kurse;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public void setName(String pName){
+    public void setName(String pName) {
         name = pName;
     }
 
-    public String getVorname(){
+    public String getVorname() {
         return vorname;
     }
 
-    public void setVorname(String pVorname){
+    public void setVorname(String pVorname) {
         vorname = pVorname;
     }
 
-    public String getAdresse(){
+    public String getAdresse() {
         return adresse;
     }
 
-    public void setAdresse(String pAdresse){
+    public void setAdresse(String pAdresse) {
         adresse = pAdresse;
     }
 
-    public LocalDate getGeburtsdatum(){
+    public LocalDate getGeburtsdatum() {
         return geburtsdatum;
     }
 
-    public void setGeburtsdatum(LocalDate pGeburtsdatum){
+    public void setGeburtsdatum(LocalDate pGeburtsdatum) {
         geburtsdatum = pGeburtsdatum;
     }
 
 }
-

@@ -4,8 +4,11 @@ import java.util.ArrayList;
 
 public interface Bewertbar {
     void bewerten(int bewertung);
+
     ArrayList<Integer> getBewertungen();
+
     int getAnzahlBewertungen();
+
     double getDurchschnittsbewertung();
 }
 
