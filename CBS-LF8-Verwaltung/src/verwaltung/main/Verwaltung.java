@@ -1,4 +1,4 @@
-package verwaltung;
+package verwaltung.main;
 
 public class Verwaltung {
 
