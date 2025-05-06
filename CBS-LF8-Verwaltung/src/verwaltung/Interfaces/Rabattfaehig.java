@@ -1,4 +1,4 @@
-package verwaltung.Interface;
+package verwaltung.Interfaces;
 
 public interface Rabattfaehig {
 
