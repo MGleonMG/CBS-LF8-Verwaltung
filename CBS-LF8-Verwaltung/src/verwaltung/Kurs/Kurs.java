@@ -1,6 +1,11 @@
 package verwaltung.Kurs;
 
-public class Kurs {
+import java.util.ArrayList;
+
+import verwaltung.Interfaces.Bewertbar;
+import verwaltung.Interfaces.Rabattfaehig;
+
+public class Kurs implements Rabattfaehig, Bewertbar {
 
     private int kursnummer;
     private String kursname;
@@ -32,9 +37,6 @@ public class Kurs {
 
     public boolean sucheTeilnehmenden() {
         return Placeholder;
-        /*
-         * Placeholder
-         */
     }
 
     public Kursteilnehmer aeltesterTeilnehmer() {
@@ -43,9 +45,6 @@ public class Kurs {
 
     public String zeigeKursInfo() {
         return kursname;
-        /*
-         * Placeholder
-         */
     }
 
     public String getKursname() {
@@ -90,5 +89,29 @@ public class Kurs {
 
     public Kursteilnehmer getTeilnehmerliste() {
         return teilnehmerliste;
+    }
+
+    @Override
+    public void bewerten(int bewertung) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'bewerten'");
+    }
+
+    @Override
+    public ArrayList<Integer> getBewertungen() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getBewertungen'");
+    }
+
+    @Override
+    public int getAnzahlBewertungen() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAnzahlBewertungen'");
+    }
+
+    @Override
+    public double getDurchschnittsbewertung() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getDurchschnittsbewertung'");
     }
 }
