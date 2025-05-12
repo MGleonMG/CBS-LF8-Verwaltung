@@ -113,7 +113,7 @@ public final class Kursteilnehmer extends Person {
     @Override
     public void zeigeInfo() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'zeigeInformation'");
+        throw new UnsupportedOperationException("Unimplemented method 'zeigeInfo'");
     }
 
 }
