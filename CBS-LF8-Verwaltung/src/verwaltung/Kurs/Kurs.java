@@ -2,8 +2,8 @@ package verwaltung.Kurs;
 
 import java.util.ArrayList;
 
-import verwaltung.Interfaces.Bewertbar;
-import verwaltung.Interfaces.Rabattfaehig;
+import verwaltung.struktur.Bewertbar;
+import verwaltung.struktur.Rabattfaehig;
 
 public class Kurs implements Rabattfaehig, Bewertbar {
 

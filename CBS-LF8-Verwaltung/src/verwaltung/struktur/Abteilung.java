@@ -1,4 +1,4 @@
-package verwaltung;
+package verwaltung.struktur;
 
 public enum Abteilung {
     VERWALTUNG,

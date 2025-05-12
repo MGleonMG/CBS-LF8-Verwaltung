@@ -1,4 +1,6 @@
-package verwaltung;
+package verwaltung.Personen;
+
+import verwaltung.struktur.Person;
 
 public class Besucher extends Person {
 
