@@ -2,7 +2,7 @@ package verwaltung.Kurs;
 
 import java.time.LocalDate;
 
-import verwaltung.Person;
+import verwaltung.struktur.Person;
 
 public final class Kursteilnehmer extends Person {
 
