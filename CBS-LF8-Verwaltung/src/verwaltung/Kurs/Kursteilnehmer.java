@@ -2,7 +2,9 @@ package verwaltung.Kurs;
 
 import java.time.LocalDate;
 
-public final class Kursteilnehmer {
+import verwaltung.Person;
+
+public final class Kursteilnehmer extends Person {
 
     private final int MAX_KURSE = 2;
     private static int anzahlKursteilnehmer = 0;
@@ -106,6 +108,12 @@ public final class Kursteilnehmer {
 
     public void setGeburtsdatum(LocalDate pGeburtsdatum) {
         geburtsdatum = pGeburtsdatum;
+    }
+
+    @Override
+    public void showInfo() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'showInfo'");
     }
 
 }
