@@ -22,7 +22,7 @@ public abstract class Person {
         personList.add(this);
     }
 
-    public abstract void showInfo();
+    public abstract void zeigeInfo();
 
     public static int getNumberOfPersons() {
         return personList.size();
@@ -30,7 +30,7 @@ public abstract class Person {
 
     public static void printPersons() {
         for (Person p : personList) {
-            p.showInfo();
+            p.zeigeInfo();
         }
     }
 
