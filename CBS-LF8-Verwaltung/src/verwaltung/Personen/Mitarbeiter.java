@@ -1,6 +1,8 @@
-package verwaltung;
+package verwaltung.Personen;
 
-public class Besucher extends Person {
+import verwaltung.struktur.Person;
+
+public class Mitarbeiter extends Person {
 
     // TODO: ..
     // TODO: ..

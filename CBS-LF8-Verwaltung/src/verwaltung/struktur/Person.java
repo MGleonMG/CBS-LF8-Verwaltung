@@ -1,4 +1,4 @@
-package verwaltung;
+package verwaltung.struktur;
 
 import java.util.ArrayList;
 
