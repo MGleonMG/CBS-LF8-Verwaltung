@@ -51,7 +51,7 @@ public final class Kursteilnehmer extends Person {
     }
 
     public String zeigeInfos() {
-        return placeholder;
+        return placeholder; // TODO: ..
     }
 
     public int getMaxKurse() {
@@ -111,9 +111,9 @@ public final class Kursteilnehmer extends Person {
     }
 
     @Override
-    public void showInfo() {
+    public void zeigeInfo() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'showInfo'");
+        throw new UnsupportedOperationException("Unimplemented method 'zeigeInfo'");
     }
 
 }

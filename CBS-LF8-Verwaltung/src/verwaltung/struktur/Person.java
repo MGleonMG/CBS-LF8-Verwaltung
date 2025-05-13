@@ -3,66 +3,66 @@ package verwaltung.struktur;
 import java.util.ArrayList;
 
 public abstract class Person {
-    protected String lastName;
-    protected String firstName;
-    protected String address;
-    protected String dateOfBirth;
+    protected String nachname;
+    protected String vorname;
+    protected String adresse;
+    protected String geburtsdatum;
 
-    private static ArrayList<Person> personList = new ArrayList<>();
+    private static ArrayList<Person> personenListe = new ArrayList<>();
 
-    public Person(String lastName, String firstName, String address, String dateOfBirth) {
-        this.lastName = lastName;
-        this.firstName = firstName;
-        this.address = address;
-        this.dateOfBirth = dateOfBirth;
-        personList.add(this);
+    public Person(String nachname, String vorname, String adresse, String geburtsdatum) {
+        this.nachname = nachname;
+        this.vorname = vorname;
+        this.adresse = adresse;
+        this.geburtsdatum = geburtsdatum;
+        personenListe.add(this);
     }
 
     public Person() {
-        personList.add(this);
+        personenListe.add(this);
     }
 
-    public abstract void showInfo();
+    public abstract void zeigeInfo();
 
-    public static int getNumberOfPersons() {
-        return personList.size();
+    public static int gibAnzahlPersonen() {
+        return personenListe.size();
     }
 
-    public static void printPersons() {
-        for (Person p : personList) {
-            p.showInfo();
+    public static void druckePersonen() {
+        for (Person person : personenListe) {
+            person.zeigeInfo();
         }
     }
 
-    public String getLastName() {
-        return lastName;
+    public String gibNachname() {
+        return nachname;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setzeNachname(String nachname) {
+        this.nachname = nachname;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String gibVorname() {
+        return vorname;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setzeVorname(String vorname) {
+        this.vorname = vorname;
     }
 
-    public String getAddress() {
-        return address;
+    public String gibAdresse() {
+        return adresse;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setzeAdresse(String adresse) {
+        this.adresse = adresse;
     }
 
-    public String getDateOfBirth() {
-        return dateOfBirth;
+    public String gibGeburtsdatum() {
+        return geburtsdatum;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
+    public void setzeGeburtsdatum(String geburtsdatum) {
+        this.geburtsdatum = geburtsdatum;
     }
 }

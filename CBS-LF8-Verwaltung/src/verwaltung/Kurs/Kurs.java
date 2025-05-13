@@ -14,7 +14,7 @@ public class Kurs implements Rabattfaehig, Bewertbar {
     private double kursgebuehr;
     private Kursteilnehmer teilnehmerliste;
 
-    private boolean Placeholder;
+    private boolean placeholder; // TODO: ..
 
     public Kurs(int kursnummer, String kursname, int maxTeilnehmer, double kursgebuehr, Kursteilnehmer Kursteilnehmer) {
 
@@ -33,10 +33,11 @@ public class Kurs implements Rabattfaehig, Bewertbar {
         /*
          * Kursname ist Placeholder
          */
+        // TODO: ..
     }
 
     public boolean sucheTeilnehmenden() {
-        return Placeholder;
+        return placeholder; // TODO: ..
     }
 
     public Kursteilnehmer aeltesterTeilnehmer() {

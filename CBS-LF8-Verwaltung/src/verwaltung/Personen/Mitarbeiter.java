@@ -9,8 +9,8 @@ public class Mitarbeiter extends Person {
     // TODO: ..
 
     @Override
-    public void showInfo() {
+    public void zeigeInfo() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'showInfo'");
+        throw new UnsupportedOperationException("Unimplemented method 'zeigeInfo'");
     }
 }
